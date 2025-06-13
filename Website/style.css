@@ -30,20 +30,30 @@ body {
 
 }
 
+.back-wall {
+    position: fixed;
+    width: 61.5vw;
+    height: 74.4vh;
+    left: 18.3vw;
+    top: 0;
+    background-color: #141414;
+    color: white;
+}
+
 .left-trapezoid {
     width: 0px;
     height: 75vh;
     position: fixed;
     left: 0;
     top: 0;
-    border-left: 17.5vw solid magenta;
+    border-left: 17.5vw solid #141414;
     border-bottom: 25vh solid transparent;
 }
 
 .bottom-trapezoid {
     position: relative;
     top: 95vh;
-    border-bottom: 25vh solid magenta;
+    border-bottom: 25vh solid #141414;
     border-left: 17.5vw solid transparent;
     border-right: 17.5vw solid transparent;
 }
@@ -54,7 +64,7 @@ body {
     position: fixed;
     right: 0;
     top: 0;
-    border-right: 17.5vw solid magenta;
+    border-right: 17.5vw solid #141414;
     border-bottom: 25vh solid transparent;
 }
 
@@ -101,4 +111,9 @@ body {
     color: white;
     text-align: center;
     /*this centering doesn't work either... :(*/
+}
+
+.object-screen {
+    display: flex;
+    flex-direction: row;
 }
