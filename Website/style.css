@@ -116,4 +116,56 @@ body {
 .object-screen {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.description {
+    margin-left: 5%;
+    width: 20%;
+}
+
+.object-image {
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*all-object-images-separately {aspect-ratio: 1;}*/
+
+.choice-collection {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.choice {
+    margin-top: 35%;
+    margin-bottom: 35%;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    font-size: 150%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: "alice in wonderland", sans-serif;
+}
+
+/*.lever-test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    height: 100%;
 }
